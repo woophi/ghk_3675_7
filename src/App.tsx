@@ -12,7 +12,6 @@ import gift from './assets/gift.png';
 import percent from './assets/percent.png';
 import smart from './assets/smart.png';
 import smileArrow from './assets/smile-arrow.png';
-import smile from './assets/smile.png';
 import transfer from './assets/transfer.png';
 import { LS, LSKeys } from './ls';
 import { appSt } from './style.css';
@@ -94,13 +93,6 @@ export const App = () => {
           </Typography.TitleResponsive>
           <Typography.Text view="primary-medium" color="secondary">
             Стоимость — 499 ₽ в месяц
-          </Typography.Text>
-        </div>
-
-        <div className={appSt.subscription}>
-          <img src={smile} alt="" width={24} height={24} />
-          <Typography.Text view="primary-medium" className={appSt.subscriptionText}>
-            Подписка стоит 299 ₽, если тратите с карты 20 000 ₽ в месяц. Если тратите меньше — 399 ₽
           </Typography.Text>
         </div>
 
